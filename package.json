@@ -1,0 +1,21 @@
+{
+  "name": "osi4kjb-data-merge",
+  "version": "0.0.1-alpha.1",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/osi4kjb-data-merge.min.js",
+  "scripts": {
+    "build": "rimraf ./dist && standard --fix && microbundle --external none -f iife"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "rimraf": "^4.1.2",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "papaparse": "^5.3.2"
+  }
+}
